@@ -1,17 +1,22 @@
-import { CustomSelect } from '../CustomSelect/CustomSelect';
-import { BudgetCard } from '../BudgetCard/BudgetCard';
-import { RemainingCard } from '../RemainingCard/RemainingCard';
-import { SpentCard } from '../SpentCard/SpentCard';
-import { Title } from '../Title/Title';
+import {
+  Title,
+  CustomSelect,
+  BudgetCard,
+  RemainingCard,
+  SpentCard,
+} from 'components';
+import { StyledBudget, CardGroup } from './styles';
 
 export const Budget = () => {
   return (
-    <div>
-      <Title />
+    <StyledBudget>
+      <Title text="Budget App" />
       <CustomSelect />
-      <BudgetCard />
-      <RemainingCard />
-      <SpentCard />
-    </div>
+      <CardGroup>
+        <BudgetCard />
+        <RemainingCard />
+        <SpentCard />
+      </CardGroup>
+    </StyledBudget>
   );
 };

@@ -1,3 +1,5 @@
+import { StyledBadge } from './styles';
+
 export const Badge = () => {
-  return <div>Badge</div>;
+  return <StyledBadge>$100</StyledBadge>;
 };

@@ -1,11 +1,11 @@
-import { Title } from '../Title/Title';
-import { Form } from '../Form/Form';
+import { Title, Form } from 'components';
+import { StyledAddExpense } from './styles';
 
 export const AddExpense = () => {
   return (
-    <div>
-      <Title />
+    <StyledAddExpense>
+      <Title text="Add Expense" />
       <Form />
-    </div>
+    </StyledAddExpense>
   );
 };

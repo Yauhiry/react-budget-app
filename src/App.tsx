@@ -1,14 +1,15 @@
-import { Budget } from './components/Budget/Budget';
-import { Expenses } from './components/Expenses/Expenses';
-import { AddExpense } from './components/AddExpense/AddExpense';
+import { Budget, Expenses, AddExpense } from 'components';
+import { StyledApp, Container } from './ui/styles';
 
 function App() {
   return (
-    <div>
-      <Budget />
-      <Expenses />
-      <AddExpense />
-    </div>
+    <StyledApp>
+      <Container>
+        <Budget />
+        <Expenses />
+        <AddExpense />
+      </Container>
+    </StyledApp>
   );
 }
 

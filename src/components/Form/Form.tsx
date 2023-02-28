@@ -1,12 +1,14 @@
-import { Input } from '../Input/Input';
-import { Button } from '../Button/Button';
+import { Input, Button } from 'components';
+import { StyledForm, InputGroup } from './styles';
 
 export const Form = () => {
   return (
-    <div>
-      <Input />
-      <Input />
+    <StyledForm>
+      <InputGroup>
+        <Input placeholder="enter name ..." />
+        <Input placeholder="enter cost ..." />
+      </InputGroup>
       <Button />
-    </div>
+    </StyledForm>
   );
 };

@@ -1,9 +1,13 @@
-import { Badge } from '../Badge/Badge';
+import { Badge } from 'components';
+import { StyledExpenseItem, Text, Delete } from './styles';
+import { crossIcon } from 'assets';
 
 export const ExpenseItem = () => {
   return (
-    <div>
+    <StyledExpenseItem>
+      <Text>shoping</Text>
       <Badge />
-    </div>
+      <Delete src={crossIcon} />
+    </StyledExpenseItem>
   );
 };
