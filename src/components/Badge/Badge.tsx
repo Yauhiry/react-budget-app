@@ -1,5 +1,9 @@
 import { StyledBadge } from './styles';
 
-export const Badge = () => {
-  return <StyledBadge>$100</StyledBadge>;
+interface BadgeProps {
+  cost: string;
+}
+
+export const Badge = ({ cost }: BadgeProps) => {
+  return <StyledBadge>${cost}</StyledBadge>;
 };

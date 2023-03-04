@@ -1,12 +1,15 @@
 import { ExpenseItem } from 'components';
+import { useExpensesContext } from 'context';
 import { StyledExpenseList } from './styles';
 
 export const ExpenseList = () => {
+  const { expenses } = useExpensesContext();
+
   return (
     <StyledExpenseList>
-      <ExpenseItem />
-      <ExpenseItem />
-      <ExpenseItem />
+      {expenses.map((expense) => {
+        return <ExpenseItem key={expense.name} expense={expense} />;
+      })}
     </StyledExpenseList>
   );
 };

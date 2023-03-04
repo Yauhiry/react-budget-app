@@ -17,6 +17,7 @@ const Text = styled.span`
 `;
 
 const Delete = styled.img`
+  background: none;
   cursor: pointer;
 `;
 

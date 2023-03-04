@@ -1,5 +1,8 @@
+import { ButtonHTMLAttributes } from 'react';
 import { StyledButton } from './styles';
 
-export const Button = () => {
-  return <StyledButton>Done</StyledButton>;
+interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {}
+
+export const Button = ({ type }: ButtonProps) => {
+  return <StyledButton type={type}>Done</StyledButton>;
 };
