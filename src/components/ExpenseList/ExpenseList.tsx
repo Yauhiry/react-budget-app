@@ -4,7 +4,7 @@ import { StyledExpenseList } from './styles';
 
 export const ExpenseList = () => {
   const { expenses } = useExpensesContext();
-  console.log(expenses);
+
   return (
     <StyledExpenseList>
       {expenses.map((expense) => {
