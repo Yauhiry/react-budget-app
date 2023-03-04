@@ -1,5 +1,6 @@
 import { createContext, useContext, useState } from 'react';
 import { ExpensesContextProviderProps, ExpensesContextValue } from './types';
+import { v4 as uuidv4 } from 'uuid';
 
 const ExpensesContext = createContext<ExpensesContextValue>({} as ExpensesContextValue);
 
@@ -8,15 +9,16 @@ const useExpensesContextValue = () => {
     return {
       expenses: [],
       addNewExpense: (expense) => {
+        const newExpense = { ...expense, id: uuidv4() };
         setExpensesContext((ctx) => ({
           ...ctx,
-          expenses: [...ctx.expenses, expense],
+          expenses: [...ctx.expenses, newExpense],
         }));
       },
-      deleteExpense: (name) => {
+      deleteExpense: (id) => {
         setExpensesContext((ctx) => ({
           ...ctx,
-          expenses: [...ctx.expenses.filter((expense) => expense.name !== name)],
+          expenses: [...ctx.expenses.filter((expense) => expense.id !== id)],
         }));
       },
     };

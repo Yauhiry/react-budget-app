@@ -9,6 +9,7 @@ export const Form = () => {
     defaultValues: {
       name: '',
       cost: '',
+      id: '',
     },
   });
 
