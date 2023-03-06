@@ -10,4 +10,9 @@ const InputGroup = styled.div`
   grid-gap: 20px;
 `;
 
-export { StyledForm, InputGroup };
+const Error = styled.span`
+  padding: 0 20px;
+  color: #ff0000;
+`;
+
+export { StyledForm, InputGroup, Error };

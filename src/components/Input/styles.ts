@@ -14,6 +14,17 @@ const StyledInput = styled.input`
   &:focus {
     outline: 2px solid #23c9ff;
   }
+  &[type='number'] {
+    -moz-appearance: textfield;
+    &:hover,
+    &:focus {
+      -moz-appearance: number-input;
+    }
+    &::-webkit-outer-spin-button,
+    &::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+    }
+  }
 `;
 
 export { StyledInput };
