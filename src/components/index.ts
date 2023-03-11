@@ -12,6 +12,7 @@ import { ExpenseItem } from './ExpenseItem/ExpenseItem';
 import { Badge } from './Badge/Badge';
 import { Form } from './Form/Form';
 import { Button } from './Button/Button';
+import { SearchInput } from './SearchInput/SearchInput';
 
 export {
   Budget,
@@ -28,4 +29,5 @@ export {
   Badge,
   Form,
   Button,
+  SearchInput,
 };
