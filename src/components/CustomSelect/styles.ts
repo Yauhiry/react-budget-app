@@ -1,7 +1,7 @@
+import { CurrencyValue } from 'context/CurrencyContext/types';
 import { StylesConfig } from 'react-select';
-import { Option } from '../../types/types';
 
-const selectStyles: StylesConfig<Option> = {
+const selectStyles: StylesConfig<CurrencyValue> = {
   option: (styles, { isFocused, isSelected }) => ({
     ...styles,
     textAlign: 'center',
@@ -9,11 +9,7 @@ const selectStyles: StylesConfig<Option> = {
     fontSize: 12,
     fontWeight: 500,
     color: isSelected ? '#ffffff' : '#000000',
-    backgroundColor: isSelected
-      ? '#23C9FF'
-      : isFocused
-      ? '#23C9FF1A'
-      : undefined,
+    backgroundColor: isSelected ? '#23C9FF' : isFocused ? '#23C9FF1A' : undefined,
     ':active': {
       backgroundColor: !isSelected ? '#23C9FF4D' : undefined,
     },

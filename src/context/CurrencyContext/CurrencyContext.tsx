@@ -13,7 +13,7 @@ const useCurrencyContextValue = () => {
         { label: 'EUR', value: Currency.EUR },
         { label: 'GBR', value: Currency.GBR },
       ],
-      changeCurrency: (selectedCurrency) => {
+      setCurrency: (selectedCurrency) => {
         setCurrencyContext((ctx) => ({ ...ctx, selectedCurrency }));
       },
     };
