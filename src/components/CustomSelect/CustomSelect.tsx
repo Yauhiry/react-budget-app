@@ -14,9 +14,9 @@ export const CustomSelect = () => {
   return (
     <Select
       options={currencies}
+      onChange={handleChange}
       value={selectedCurrency}
       styles={selectStyles}
-      onChange={handleChange}
       isMulti={false}
       isSearchable={false}
     />

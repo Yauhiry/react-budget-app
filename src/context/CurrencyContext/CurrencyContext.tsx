@@ -7,12 +7,12 @@ const CurrencyContext = createContext<CurrencyContextValue>({} as CurrencyContex
 const useCurrencyContextValue = () => {
   const [currencyContext, setCurrencyContext] = useState<CurrencyContextValue>(() => {
     return {
+      selectedCurrency: { label: 'USD', value: Currency.USD },
       currencies: [
         { label: 'USD', value: Currency.USD },
         { label: 'EUR', value: Currency.EUR },
         { label: 'GBR', value: Currency.GBR },
       ],
-      selectedCurrency: { label: 'USD', value: Currency.USD },
       changeCurrency: (selectedCurrency) => {
         setCurrencyContext((ctx) => ({ ...ctx, selectedCurrency }));
       },

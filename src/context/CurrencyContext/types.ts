@@ -2,8 +2,8 @@ import { Currency } from 'config/currency';
 import { ReactNode } from 'react';
 
 export interface CurrencyValue {
-  label: keyof typeof Currency;
-  value: Currency;
+  label: string;
+  value: string;
 }
 
 export interface CurrencyContextValue {

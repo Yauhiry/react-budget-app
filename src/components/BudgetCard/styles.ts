@@ -28,4 +28,29 @@ const Button = styled.button`
   cursor: pointer;
 `;
 
-export { StyledBudgetCard, Text, Button };
+const Input = styled.input`
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  background: transparent;
+  &::placeholder {
+    color: #ffffff99;
+  }
+  &:focus {
+    outline: none;
+  }
+  &[type='number'] {
+    -moz-appearance: textfield;
+    &:hover,
+    &:focus {
+      -moz-appearance: number-input;
+    }
+    &::-webkit-outer-spin-button,
+    &::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+    }
+  }
+`;
+
+export { StyledBudgetCard, Text, Button, Input };
