@@ -39,7 +39,7 @@
 - [![React][react.js]][react-url]
 - [![Npm][npm.js]][npm-url]
 - [![Styled-component][styled-component.com]][styled-component-url]
-- [![Typescrypt][typescript.org]][typescrypt-url]
+- [![Typescrypt][typescrypt.org]][typescrypt-url]
 - [![React-hook-form][react-hook-form.com]][react-hook-form-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -68,7 +68,7 @@ Project Link: [https://github.com/Yauhiry/react-budget-app](https://github.com/Y
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/yauheni-hirynski-86b454262
+[linkedin-url]: https://www.linkedin.com/in/yauheni-hirynski-86b454262/
 [product-screenshot]: images/budget-app.png
 [npm.js]: https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white
 [npm-url]: https://www.npmjs.com/
