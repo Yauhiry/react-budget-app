@@ -3,7 +3,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <h3 align="center">React Budget App</h3>
+  <h1 align="center">React Budget App</h1>
   <p align="center">
     Application for calculating budget and expenses
     <br />
@@ -39,7 +39,7 @@
 - [![React][react.js]][react-url]
 - [![Npm][npm.js]][npm-url]
 - [![Styled-component][styled-component.com]][styled-component-url]
-- [![Typescrypt][typescript]][typescrypt-url]
+- [![Typescrypt][typescript.org]][typescrypt-url]
 - [![React-hook-form][react-hook-form.com]][react-hook-form-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -58,26 +58,9 @@ The application allows you to set the budget and expenses. Calculates the balanc
 
 Yauheni Hirynski - yauhiry@gmail.com
 
-Project Link: [https://github.com/Yauhiry/react-budget-app](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/Yauhiry/react-budget-app](https://github.com/Yauhiry/react-budget-app)
 
 [![LinkedIn][linkedin-shield]][linkedin-url]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGMENTS -->
-
-## Acknowledgments
-
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
-- [Choose an Open Source License](https://choosealicense.com)
-- [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-- [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-- [Malven's Grid Cheatsheet](https://grid.malven.co/)
-- [Img Shields](https://shields.io)
-- [GitHub Pages](https://pages.github.com)
-- [Font Awesome](https://fontawesome.com)
-- [React Icons](https://react-icons.github.io/react-icons/search)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -85,7 +68,7 @@ Use this space to list resources you find helpful and would like to give credit 
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: linkedin.com/in/yauheni-hirynski-86b454262
+[linkedin-url]: https://linkedin.com/in/yauheni-hirynski-86b454262
 [product-screenshot]: images/budget-app.png
 [npm.js]: https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white
 [npm-url]: https://www.npmjs.com/
