@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 const StyledBudgetCard = styled.div`
   display: grid;
+  grid-gap: 20px;
   grid-template-columns: repeat(2, auto);
   align-items: center;
   padding: 32px 20px;
@@ -29,6 +30,7 @@ const Button = styled.button`
 `;
 
 const Input = styled.input`
+  width: 100%;
   font-family: 'Inter';
   font-weight: 500;
   font-size: 20px;
